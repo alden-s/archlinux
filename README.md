@@ -10,10 +10,10 @@ the user, not dependent on any other package (so not installed as a dependency),
 package database on your system (e.g. emacs) as opposed to a user-level community package (e.g. google-chrome web browser from the aur). Note that some of these packages may require other system packages to be 
 installed (e.g. base-devel and btrfs-progs).
 
-#### `packages_community.txt` was generated with the command: 'pacman -Qqm > packages_community.txt'
+#### 'packages_community.txt' was generated with the command: 'pacman -Qqm > packages_community.txt'
 * This generates a text file that contains package names for community packages that were installed by 
 the user (e.g. google-chrome web browser from the aur).
 
 #### installation
 * To expedite the process of package installation from the native package list, you 
-can use the command `pacman -S \`cat packages_native.txt\``
+can use the command 'pacman -S \`cat packages_native.txt\`'
