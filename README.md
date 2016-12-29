@@ -14,6 +14,6 @@ installed (e.g. base-devel and btrfs-progs).
 * This generates a text file that contains package names for community packages that were installed by 
 the user (e.g. google-chrome web browser from the aur).
 
-#### INSTALLATION :
+#### installation :
 * To expedite the process of package installation from the native package list, you 
-can use the command "pacman -S `cat packages_native.txt`"
+can use the command "pacman -S \`cat packages_native.txt\`"
