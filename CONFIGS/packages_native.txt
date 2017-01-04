@@ -8,6 +8,7 @@ btrfs-progs
 emacs
 fakeroot
 flex
+gdb
 grub
 intel-ucode
 iputils
@@ -23,6 +24,7 @@ man-pages
 mdadm
 nano
 netctl
+nmap
 pacman
 parted
 patch
@@ -30,7 +32,6 @@ pcmciautils
 pkg-config
 procps-ng
 reiserfsprogs
-sudo
 usbutils
 vi
 which
