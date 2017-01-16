@@ -16,6 +16,7 @@ iputils
 irssi
 iw
 jfsutils
+jre8-openjdk-headless
 licenses
 linux
 logrotate

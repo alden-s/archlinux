@@ -1,4 +1,6 @@
 discord-canary
+feedthebeast
 firestorm-bin
 google-chrome
+libicns
 tor-browser-en
