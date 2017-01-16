@@ -271,7 +271,12 @@ globalkeys = awful.util.table.join(
                   awful.util.getdir("cache") .. "/history_eval")
               end),
     -- Menubar
-    awful.key({ modkey }, "p", function() menubar.show() end)
+    awful.key({ modkey }, "p", function() menubar.show() end),
+
+    -- Custom Keys
+    awful.key({ }, "F8", function() awful.util.spawn("amixer set Master toggle") end),
+    awful.key({ }, "F9", function() awful.util.spawn("amixer set Master 5-") end),
+    awful.key({ }, "F10", function() awful.util.spawn("amixer set Master 5+") end)
 )
 
 clientkeys = awful.util.table.join(
