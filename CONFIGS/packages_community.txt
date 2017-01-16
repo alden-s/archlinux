@@ -1,3 +1,4 @@
 discord-canary
 firestorm-bin
 google-chrome
+tor-browser-en
