@@ -2,4 +2,5 @@ discord-canary
 feedthebeast
 firestorm-bin
 google-chrome
+js17
 tor-browser-en
