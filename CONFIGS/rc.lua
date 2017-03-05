@@ -178,7 +178,7 @@ for s = 1, screen.count() do
 
     -- Create a tasklist widget
     mytasklist[s] = awful.widget.tasklist(s, awful.widget.tasklist.filter.currenttags, mytasklist.buttons)
-
+    
     -- Create the wibox
     mywibox[s] = awful.wibox({ position = "top", screen = s })
 
@@ -192,6 +192,8 @@ for s = 1, screen.count() do
     local right_layout = wibox.layout.fixed.horizontal()
     if s == 1 then right_layout:add(wibox.widget.systray()) end
     right_layout:add(mytextclock)
+    --right_layout:add(mybattery)
+    --right_layout:add(mytemp)
     right_layout:add(mylayoutbox[s])
 
     -- Now bring it all together (with the tasklist in the middle)
@@ -274,6 +276,8 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey }, "p", function() menubar.show() end),
 
     -- Custom Keys
+    awful.key({ }, "F6", function() awful.util.spawn("xbacklight -dec 5") end),
+    awful.key({ }, "F7", function() awful.util.spawn("xbacklight -inc 5") end),
     awful.key({ }, "F8", function() awful.util.spawn("amixer set Master toggle") end),
     awful.key({ }, "F9", function() awful.util.spawn("amixer set Master 5-") end),
     awful.key({ }, "F10", function() awful.util.spawn("amixer set Master 5+") end)
