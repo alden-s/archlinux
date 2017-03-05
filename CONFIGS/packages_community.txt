@@ -1,4 +1,4 @@
-discord-canary
+discord
 feedthebeast
 firestorm-bin
 google-chrome
