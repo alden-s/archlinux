@@ -34,9 +34,12 @@ pcmciautils
 pkg-config
 procps-ng
 reiserfsprogs
+rsync
+sshfs
 usbutils
 vi
 vlc
+wget
 which
 xf86-input-synaptics
 xf86-input-vmmouse
@@ -55,7 +58,6 @@ xorg-fonts-100dpi
 xorg-fonts-75dpi
 xorg-server
 xorg-server-devel
-xorg-server-utils
 xorg-server-xdmx
 xorg-server-xephyr
 xorg-server-xnest
