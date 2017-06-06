@@ -35,6 +35,7 @@ pcmciautils
 pkg-config
 procps-ng
 reiserfsprogs
+remmina
 rsync
 sshfs
 usbutils
@@ -60,7 +61,6 @@ xorg-fonts-75dpi
 xorg-server
 xorg-server-devel
 xorg-server-xdmx
-xorg-server-xephyr
 xorg-server-xnest
 xorg-server-xvfb
 xorg-server-xwayland
