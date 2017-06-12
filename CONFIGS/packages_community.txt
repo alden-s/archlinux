@@ -1,7 +1,6 @@
 discord
 feedthebeast
 firestorm-bin
-google-chrome
 grive
 tor-browser-en
 xorg-server-utils
