@@ -5,6 +5,7 @@ automake
 awesome
 bison
 btrfs-progs
+chromium
 cmake
 emacs
 evince
